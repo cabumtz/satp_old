@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="satp">
+		<class>mx.com.magmasoft.satp.model.Administadorruta</class>
+		<class>mx.com.magmasoft.satp.model.Administradormaster</class>
+		<class>mx.com.magmasoft.satp.model.Agrupacionlaboral</class>
+		<class>mx.com.magmasoft.satp.model.Agrupacionpersona</class>
+		<class>mx.com.magmasoft.satp.model.Archivo</class>
+		<class>mx.com.magmasoft.satp.model.Chofer</class>
+		<class>mx.com.magmasoft.satp.model.Ciudad</class>
+		<class>mx.com.magmasoft.satp.model.Colonia</class>
+		<class>mx.com.magmasoft.satp.model.Concecionario</class>
+		<class>mx.com.magmasoft.satp.model.Direccion</class>
+		<class>mx.com.magmasoft.satp.model.Empresa</class>
+		<class>mx.com.magmasoft.satp.model.Empresaruta</class>
+		<class>mx.com.magmasoft.satp.model.Entidad</class>
+		<class>mx.com.magmasoft.satp.model.Estado</class>
+		<class>mx.com.magmasoft.satp.model.Estatuslicenciaconducir</class>
+		<class>mx.com.magmasoft.satp.model.Licenciaconducir</class>
+		<class>mx.com.magmasoft.satp.model.Miembrofisico</class>
+		<class>mx.com.magmasoft.satp.model.Pais</class>
+		<class>mx.com.magmasoft.satp.model.Parametroglobal</class>
+		<class>mx.com.magmasoft.satp.model.Personafisica</class>
+		<class>mx.com.magmasoft.satp.model.Personamoral</class>
+		<class>mx.com.magmasoft.satp.model.Placa</class>
+		<class>mx.com.magmasoft.satp.model.Renovacionlicenciaconducir</class>
+		<class>mx.com.magmasoft.satp.model.Telefono</class>
+		<class>mx.com.magmasoft.satp.model.Tipoarchivo</class>
+		<class>mx.com.magmasoft.satp.model.Tipodireccion</class>
+		<class>mx.com.magmasoft.satp.model.Tipolicenciaconducir</class>
+		<class>mx.com.magmasoft.satp.model.Tipomime</class>
+		<class>mx.com.magmasoft.satp.model.Tipoplaca</class>
+		<class>mx.com.magmasoft.satp.model.Tipotelefono</class>
+	</persistence-unit>
+</persistence>
